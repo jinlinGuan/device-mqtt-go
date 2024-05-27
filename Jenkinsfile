@@ -15,5 +15,10 @@
 //
 
 edgeXBuildGoApp (
-    project: 'device-mqtt-go'
+    project: 'device-mqtt-go',
+    snykDebug: true,
+    arch: ['amd64'],
+    buildImage: false,
+    buildSnap: false,
+    publishSwaggerDocs: false
 ) 
